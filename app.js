@@ -27,4 +27,17 @@ let selectedColors = ['red','blue']
 selectedColors[2] = 'green'; 
 //displaying an element in an array
 console.log(selectedColors [0]); 
- 
+
+//this is a function performing a task
+function greet (name) {
+    console.log ('Hello World')
+}
+//how to call a function
+greet ('John');
+
+//calculate a value
+function square (number) {
+    return number * number; 
+}
+
+greet ('John', 'Smith')
